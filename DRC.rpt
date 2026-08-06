@@ -1,0 +1,50 @@
+** Drc report for the NFT.kicad_pcb **
+** Created on 2026-08-03T14:18:43 **
+** Report includes: Errors, Warnings **
+
+** Found 10 DRC violations **
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(176.5000 mm, 113.5000 mm): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(195.0000 mm, 110.7500 mm): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(123.7500 mm, 114.7500 mm): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(105.5000 mm, 114.7500 mm): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(214.7500 mm, 117.0000 mm): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(159.5000 mm, 110.2500 mm): Via [+12v] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(141.5000 mm, 112.0000 mm): Via [+12v] on F.Cu - B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.7500 mm, 49.4000 mm): Rectangle on Edge.Cuts
+    @(152.1750 mm, 43.1600 mm): Segment of U2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.7500 mm, 49.4000 mm): Rectangle on Edge.Cuts
+    @(170.5750 mm, 43.1600 mm): Segment of U2 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'ESP32-S3-WROOM-1' does not match copy in library 'RF_Module'
+    Local override; warning
+    @(161.3750 mm, 56.0600 mm): Footprint U2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
