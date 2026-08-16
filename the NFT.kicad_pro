@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.85,
+          "height": 1.1,
+          "width": 1.35
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -274,7 +274,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|711200|482600|a2878027-4c1c-474a-b45b-6ea6ab7c01fc|00000000-0000-0000-0000-000000000000|/0008ff39-183c-4689-a031-585308b79722|/0008ff39-183c-4689-a031-585308b79722|",
+        ""
+      ],
+      [
+        "pin_to_pin|774700|1778000|cc930ff2-406d-48a2-a32a-443269eefb1a|b6832300-d5a3-4dfe-9c23-e6ca69699b29|/0008ff39-183c-4689-a031-585308b79722|/0008ff39-183c-4689-a031-585308b79722|/0008ff39-183c-4689-a031-585308b79722",
+        ""
+      ],
+      [
+        "pin_to_pin|812800|558800|b6832300-d5a3-4dfe-9c23-e6ca69699b29|3ae4082b-b189-4d4a-9487-5e646fce51c5|/0008ff39-183c-4689-a031-585308b79722|/0008ff39-183c-4689-a031-585308b79722|/0008ff39-183c-4689-a031-585308b79722",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -752,7 +765,7 @@
         "uuid": "0008ff39-183c-4689-a031-585308b79722"
       }
     ],
-    "used_designators": "U1-9,sensor\\-vp\\-vn1,L1-2,R1\\-IO1,D1-9,vout1,#PWR1-29,#PWR36,#PWR39,#PWR41-44,P1-2,Q1-8,#FLG1-3,R1-19,R34,R36-37,C1-12,J1-11,K1-7,H1-4,12vinput1,EC\\-sensor1,SW1-9,ESP32\\-INPUT1,PH\\-sensor1-2,Ultrasonic1-2,analog\\-inputs\\-2\\,1-2,main\\-pump\\-IO1,R2\\-IO1,F1-3,R3\\-IO1-3,EC1\\-PUMP1,EC2\\-PUMP1,MAIN\\-PUMP1-2,PH\\-PUMP1,S2-3,CR1,I2C1,temp1,inputs1,DC1",
+    "used_designators": "U1-9,U11,sensor\\-vp\\-vn1,L1-2,R1\\-IO1,D1-9,vout1,#PWR1-45,#PWR48,#PWR51,#PWR59,#PWR61,#PWR64,#PWR66,#PWR68,#PWR71-73,#PWR78-79,P1-2,Q1-8,#FLG1-4,R1-19,R33-38,R42,R44,R47,R49,C1-18,C21-22,C24-26,J1-12,K1-7,H1-4,12vinput1,EC\\-sensor1,SW1-9,ESP32\\-INPUT1,PH\\-sensor1-2,Ultrasonic1-2,analog\\-inputs\\-2\\,1-2,main\\-pump\\-IO1,R2\\-IO1,F1-3,R3\\-IO1-3,EC1\\-PUMP1,EC2\\-PUMP1,MAIN\\-PUMP1-2,PH\\-PUMP1,S1-3,CR1-2,I2C1,temp1,inputs1,DC1,JP11",
     "variants": []
   },
   "sheets": [
